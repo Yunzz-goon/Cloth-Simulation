@@ -1,0 +1,10 @@
+
+=== Start: [2022/10/31 10:09:08] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2022/10/31 10:10:39] === 

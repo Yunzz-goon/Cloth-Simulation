@@ -1,0 +1,764 @@
+The system is: Linux - 4.18.0-372.26.1.el8.nci.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /apps/intel-ct/wrapper/icc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Intel, found in "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/3.20.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /apps/intel-ct/wrapper/icpc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Intel, found in "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/3.20.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_bd2b1/fast && /bin/gmake  -f CMakeFiles/cmTC_bd2b1.dir/build.make CMakeFiles/cmTC_bd2b1.dir/build
+gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o
+/apps/intel-ct/wrapper/icc   -v -MD -MT CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -c /half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c
+icc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c -oCMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icc1340762379oSyzQu -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -MD -MT CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icc9MrHp8as_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1340762379oSyzQu -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchKigkxb -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfilewxOqWn -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c /half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+Linking C executable cmTC_bd2b1
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2b1.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/icc  -v CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -o cmTC_bd2b1 
+icc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -o cmTC_bd2b1" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icc7YZXiwas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc0661536075L0vO9d -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/iccslisHVf5zV -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/iccscriptmCnPca "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_bd2b1" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icc5JYKKl.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchdCSKF7 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfileTw6fme -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icc5JYKKl.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/iccalisfmOffD -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/iccelisVAJs26 -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icceobjjWHeCn -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/iccllishbKzut
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_bd2b1 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/intel-ct/2021.6.0/compiler/linux/include]
+    add: [/apps/papi/5.7.0/include]
+    add: [/apps/intel-ct/2021.6.0/compiler/linux/include]
+    add: [/apps/papi/5.7.0/include]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+    add: [/usr/local/include]
+    add: [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+    add: [/half-root/usr/bin/../include/]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/intel-ct/2021.6.0/compiler/linux/include] ==> [/apps/intel-ct/2021.6.0/compiler/linux/include]
+  collapse include dir [/apps/papi/5.7.0/include] ==> [/apps/papi/5.7.0/include]
+  collapse include dir [/apps/intel-ct/2021.6.0/compiler/linux/include] ==> [/apps/intel-ct/2021.6.0/compiler/linux/include]
+  collapse include dir [/apps/papi/5.7.0/include] ==> [/apps/papi/5.7.0/include]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/intel64]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/icc]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include]
+  collapse include dir [/half-root/usr/bin/../include/] ==> [/half-root/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/intel-ct/2021.6.0/compiler/linux/include;/apps/papi/5.7.0/include;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/intel64;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/icc;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include;/usr/local/include;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include;/half-root/usr/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_bd2b1/fast && /bin/gmake  -f CMakeFiles/cmTC_bd2b1.dir/build.make CMakeFiles/cmTC_bd2b1.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/apps/intel-ct/wrapper/icc   -v -MD -MT CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -c /half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [icc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c -oCMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic MIC --offload_unique_string=icc1340762379oSyzQu -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -MD -MT CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icc9MrHp8as_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1340762379oSyzQu -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchKigkxb -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfilewxOqWn -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c /half-root/usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_bd2b1]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2b1.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/icc  -v CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -o cmTC_bd2b1 ]
+  ignore line: [icc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -o cmTC_bd2b1" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icc7YZXiwas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc0661536075L0vO9d -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/iccslisHVf5zV -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/iccscriptmCnPca "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_bd2b1" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icc5JYKKl.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchdCSKF7 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfileTw6fme -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icc5JYKKl.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/iccalisfmOffD -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/iccelisVAJs26 -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icceobjjWHeCn -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/iccllishbKzut]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_bd2b1 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bd2b1] ==> ignore
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+    arg [-L/apps/papi/5.7.0/lib] ==> dir [/apps/papi/5.7.0/lib]
+    arg [-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/]
+    arg [-L/apps/papi/5.7.0/lib/] ==> dir [/apps/papi/5.7.0/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_bd2b1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/half-root/usr/lib64/crt1.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/half-root/usr/lib64/crti.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/half-root/usr/lib64/crtn.o]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib/] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;cilkrts;stdc++;gcc;gcc_s;irc;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: [/half-root/usr/lib64/crt1.o;/half-root/usr/lib64/crti.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/half-root/usr/lib64/crtn.o]
+  implicit dirs: [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin;/apps/intel-ct/2021.6.0/compiler/linux/lib/x64;/apps/intel-ct/2021.6.0/compiler/linux/lib;/apps/papi/5.7.0/lib;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_7c96a/fast && /bin/gmake  -f CMakeFiles/cmTC_7c96a.dir/build.make CMakeFiles/cmTC_7c96a.dir/build
+gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o
+/apps/intel-ct/wrapper/icpc   -v -MD -MT CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -c /half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+icpc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c++ -oCMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__GLIBCXX_TYPE_INT_N_0=__int128 -D__GLIBCXX_BITSIZE_INT_N_0=128 -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=8 -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 -p --bool -tused -x --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icpc1270995532J6GfdH --bool -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -MD -MT CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc0IMADxas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc1270995532J6GfdH -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchKHKUb1 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfile4P78E8 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mGLOB_eh_linux /half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include
+ /half-root/usr/bin/../include/c++/8
+ /half-root/usr/bin/../include/c++/8/x86_64-redhat-linux
+ /half-root/usr/bin/../include/c++/8/backward
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_7c96a
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c96a.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/icpc  -v CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7c96a 
+icpc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -o cmTC_7c96a" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc3nv8aMas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc2143442885k5zpul -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/icpcsliscbzQZK -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/icpcscriptvEUiWN "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_7c96a" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icpcPIArRk.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchDB8hK2 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfilenShlv1 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icpcPIArRk.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/icpcalisckQ4dK -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/icpcelis1f6jDV -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icpceobjRxmp15 -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/icpcllisRnq2u5
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_7c96a -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/apps/intel-ct/2021.6.0/compiler/linux/include]
+    add: [/apps/papi/5.7.0/include]
+    add: [/apps/intel-ct/2021.6.0/compiler/linux/include]
+    add: [/apps/papi/5.7.0/include]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+    add: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+    add: [/half-root/usr/bin/../include/c++/8]
+    add: [/half-root/usr/bin/../include/c++/8/x86_64-redhat-linux]
+    add: [/half-root/usr/bin/../include/c++/8/backward]
+    add: [/usr/local/include]
+    add: [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+    add: [/half-root/usr/bin/../include/]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/apps/intel-ct/2021.6.0/compiler/linux/include] ==> [/apps/intel-ct/2021.6.0/compiler/linux/include]
+  collapse include dir [/apps/papi/5.7.0/include] ==> [/apps/papi/5.7.0/include]
+  collapse include dir [/apps/intel-ct/2021.6.0/compiler/linux/include] ==> [/apps/intel-ct/2021.6.0/compiler/linux/include]
+  collapse include dir [/apps/papi/5.7.0/include] ==> [/apps/papi/5.7.0/include]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/intel64]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/icc]
+  collapse include dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include]
+  collapse include dir [/half-root/usr/bin/../include/c++/8] ==> [/half-root/usr/include/c++/8]
+  collapse include dir [/half-root/usr/bin/../include/c++/8/x86_64-redhat-linux] ==> [/half-root/usr/include/c++/8/x86_64-redhat-linux]
+  collapse include dir [/half-root/usr/bin/../include/c++/8/backward] ==> [/half-root/usr/include/c++/8/backward]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include]
+  collapse include dir [/half-root/usr/bin/../include/] ==> [/half-root/usr/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/apps/intel-ct/2021.6.0/compiler/linux/include;/apps/papi/5.7.0/include;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/intel64;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include/icc;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/include;/half-root/usr/include/c++/8;/half-root/usr/include/c++/8/x86_64-redhat-linux;/half-root/usr/include/c++/8/backward;/usr/local/include;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include;/half-root/usr/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_7c96a/fast && /bin/gmake  -f CMakeFiles/cmTC_7c96a.dir/build.make CMakeFiles/cmTC_7c96a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/apps/intel-ct/wrapper/icpc   -v -MD -MT CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -c /half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [icpc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c++ -oCMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__GLIBCXX_TYPE_INT_N_0=__int128 -D__GLIBCXX_BITSIZE_INT_N_0=128 -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=8 -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 -p --bool -tused -x --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic MIC --offload_unique_string=icpc1270995532J6GfdH --bool -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -MD -MT CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc0IMADxas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc1270995532J6GfdH -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchKHKUb1 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfile4P78E8 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mP1OPT_full_source_file_name=/half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -mGLOB_eh_linux /half-root/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+  ignore line: [ /half-root/usr/bin/../include/c++/8]
+  ignore line: [ /half-root/usr/bin/../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /half-root/usr/bin/../include/c++/8/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_7c96a]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c96a.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/icpc  -v CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7c96a ]
+  ignore line: [icpc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-v -o cmTC_7c96a" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc3nv8aMas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc2143442885k5zpul -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/icpcsliscbzQZK -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/icpcscriptvEUiWN "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_7c96a" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "--as-needed" "-Bdynamic" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icpcPIArRk.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchDB8hK2 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfilenShlv1 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icpcPIArRk.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/icpcalisckQ4dK -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/icpcelis1f6jDV -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icpceobjRxmp15 -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/icpcllisRnq2u5]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_7c96a -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal --as-needed -Bdynamic -lcilkrts --no-as-needed -lstdc++ -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -lsvml -Bdynamic -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7c96a] ==> ignore
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+    arg [-L/apps/papi/5.7.0/lib] ==> dir [/apps/papi/5.7.0/lib]
+    arg [-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/]
+    arg [-L/apps/papi/5.7.0/lib/] ==> dir [/apps/papi/5.7.0/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_7c96a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [--as-needed] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o]
+    arg [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o] ==> [/half-root/usr/lib64/crt1.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o] ==> [/half-root/usr/lib64/crti.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o]
+  collapse obj [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o] ==> [/half-root/usr/lib64/crtn.o]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib/] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;stdc++;m;ipgo;decimal;cilkrts;stdc++;gcc;gcc_s;irc;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: [/half-root/usr/lib64/crt1.o;/half-root/usr/lib64/crti.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtbegin.o;/half-root/usr/lib/gcc/x86_64-redhat-linux/8/crtend.o;/half-root/usr/lib64/crtn.o]
+  implicit dirs: [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin;/apps/intel-ct/2021.6.0/compiler/linux/lib/x64;/apps/intel-ct/2021.6.0/compiler/linux/lib;/apps/papi/5.7.0/lib;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_0b3e0/fast && /bin/gmake  -f CMakeFiles/cmTC_0b3e0.dir/build.make CMakeFiles/cmTC_0b3e0.dir/build
+gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o
+/apps/intel-ct/wrapper/icc   -qopenmp -v -MD -MT CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+icc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c -oCMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D_OPENMP=201611 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 --openmp --openmp_tasks --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icc1751790694b0Dx3m -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-qopenmp -v -MD -MT CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/iccSRRdevas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1751790694b0Dx3m -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchnSJovH -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfilelknlWN -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mP1OPT_full_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+Linking C executable cmTC_0b3e0
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b3e0.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/icc  -qopenmp -v CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -o cmTC_0b3e0  -v 
+icc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-qopenmp -v -o cmTC_0b3e0 -v" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/iccuX5Pf3as_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1652494731lCOQ57 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/iccslis5mpjB3 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/iccscriptv4wJba "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_0b3e0" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "-Bdynamic" "-liomp5" "--as-needed" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icc8lL8LE.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchY3VcHz -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfileUTwPKi -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icc8lL8LE.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/iccalishb8ruX -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/iccelisYLvuqh -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icceobjVb9rut -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/iccllisSMFRDe
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_0b3e0 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal -Bdynamic -liomp5 --as-needed -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_0b3e0/fast && /bin/gmake  -f CMakeFiles/cmTC_0b3e0.dir/build.make CMakeFiles/cmTC_0b3e0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o]
+  ignore line: [/apps/intel-ct/wrapper/icc   -qopenmp -v -MD -MT CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [icc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c -oCMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D_OPENMP=201611 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__pentium4 -D__pentium4__ -D__tune_pentium4__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 --openmp --openmp_tasks --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o --multibyte_chars -mGLOB_diag_suppress_sys --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic MIC --offload_unique_string=icc1751790694b0Dx3m -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-qopenmp -v -MD -MT CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/iccSRRdevas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d93 -mCG_bnl_movbe=T -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1751790694b0Dx3m -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchnSJovH -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfilelknlWN -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C -mP1OPT_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -mP1OPT_full_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_0b3e0]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b3e0.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/icc  -qopenmp -v CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -o cmTC_0b3e0  -v ]
+  ignore line: [icc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-qopenmp -v -o cmTC_0b3e0 -v" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/iccuX5Pf3as_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d93 -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icc1652494731lCOQ57 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/iccslis5mpjB3 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/iccscriptv4wJba "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_0b3e0" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "-Bdynamic" "-liomp5" "--as-needed" "-lcilkrts" "-lstdc++" "--no-as-needed" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "-lgcc_s" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icc8lL8LE.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/iccwarchY3VcHz -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icctempfileUTwPKi -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icc8lL8LE.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/iccalishb8ruX -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/iccelisYLvuqh -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icceobjVb9rut -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/iccllisSMFRDe]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_0b3e0 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lm -Bstatic -lipgo -ldecimal -Bdynamic -liomp5 --as-needed -lcilkrts -lstdc++ --no-as-needed -lgcc -lgcc_s -Bstatic -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc -lgcc_s -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b3e0] ==> ignore
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+    arg [-L/apps/papi/5.7.0/lib] ==> dir [/apps/papi/5.7.0/lib]
+    arg [-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/]
+    arg [-L/apps/papi/5.7.0/lib/] ==> dir [/apps/papi/5.7.0/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_0b3e0.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [-Bdynamic] ==> ignore
+    arg [-liomp5] ==> lib [iomp5]
+    arg [--as-needed] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [--no-as-needed] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-Bstatic] ==> ignore
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib/] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [imf;svml;irng;m;ipgo;decimal;iomp5;cilkrts;stdc++;gcc;gcc_s;irc;pthread;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: []
+  implicit dirs: [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin;/apps/intel-ct/2021.6.0/compiler/linux/lib/x64;/apps/intel-ct/2021.6.0/compiler/linux/lib;/apps/papi/5.7.0/lib;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake -f Makefile cmTC_80a13/fast && /bin/gmake  -f CMakeFiles/cmTC_80a13.dir/build.make CMakeFiles/cmTC_80a13.dir/build
+gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o
+/apps/intel-ct/wrapper/icpc   -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+icpc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c++ -oCMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__GLIBCXX_TYPE_INT_N_0=__int128 -D__GLIBCXX_BITSIZE_INT_N_0=128 -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=8 -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D_OPENMP=201611 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__POPCNT__ -D__PCLMUL__ -D__AES__ -D__AVX__ -D__F16C__ -D__AVX_I__ -D__RDRND__ -D__FMA__ -D__FP_FAST_FMA -D__FP_FAST_FMAF -D__BMI__ -D__LZCNT__ -D__AVX2__ -D__AVX512F__ -D__AVX512DQ__ -D__ADX__ -D__RDSEED__ -D__AVX512CD__ -D__MPX__ -D__AVX512BW__ -D__AVX512VL__ -D__AVX512VNNI__ -D__CLWB__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 -p --bool -tused -x --openmp --openmp_tasks --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o --multibyte_chars -mGLOB_diag_suppress_sys -DPAPI --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic,MIC --offload_unique_string=icpc00955121093IYzTP --bool -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mP3OPT_emit_line_numbers -mGLOB_debug_target=GLOB_DEBUG_TARGET_ALL -mDEBUG_info_level=2 -mDEBUG_use_indirect_strings=TRUE -mIPOPT_ninl_debug_info=TRUE -mDEBUG_emit_dwarf_inline_info=TRUE -mDEBUG_debug_ranges=TRUE -mGLOB_debug_format=GLOB_DEBUG_FORMAT_DWARF40 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpcePy2RMas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mGLOB_cpu_features_csv_list=sse,avx,avx512f -mGLOB_cpu_march=native -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report=TRUE -mGLOB_opt_report_phases=0x2 -mGLOB_opt_report_level=4 -mGLOB_opt_report_destination=0x2 -mGLOB_opt_report_annotate_format=0x1 -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc00955121093IYzTP -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mP2OPT_hlo_embed_loopinfo -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchwW71S6 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfileWjl5s6 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mP1OPT_full_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mGLOB_eh_linux /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+#include "..." search starts here:
+#include <...> search starts here:
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-ct/2021.6.0/compiler/linux/include
+ /apps/papi/5.7.0/include
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc
+ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include
+ /half-root/usr/bin/../include/c++/8
+ /half-root/usr/bin/../include/c++/8/x86_64-redhat-linux
+ /half-root/usr/bin/../include/c++/8/backward
+ /usr/local/include
+ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include
+ /half-root/usr/bin/../include/
+ /usr/include
+End of search list.
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Intel(R) C++ Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.6.0 Build 20220226_000000
+
+Compiler options: -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c
+Linking CXX executable cmTC_80a13
+/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80a13.dir/link.txt --verbose=1
+/apps/intel-ct/wrapper/icpc  -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -o cmTC_80a13  -v 
+icpc version 2021.6.0 (gcc version 8.5.0 compatibility)
+/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -o cmTC_80a13 -v" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mP3OPT_emit_line_numbers -mGLOB_debug_target=GLOB_DEBUG_TARGET_ALL -mDEBUG_info_level=2 -mDEBUG_use_indirect_strings=TRUE -mIPOPT_ninl_debug_info=TRUE -mDEBUG_emit_dwarf_inline_info=TRUE -mDEBUG_debug_ranges=TRUE -mGLOB_debug_format=GLOB_DEBUG_FORMAT_DWARF40 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc3p38Vsas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mGLOB_cpu_features_csv_list=sse,avx,avx512f -mGLOB_cpu_march=native -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report=TRUE -mGLOB_opt_report_phases=0x2 -mGLOB_opt_report_level=4 -mGLOB_opt_report_destination=0x2 -mGLOB_opt_report_annotate_format=0x1 -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc2040697209IAThG5 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mP2OPT_hlo_embed_loopinfo -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/icpcslisFxHsA9 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/icpcscriptyLvnnS "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_80a13" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "-lpapi" "CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "-Bdynamic" "-liomp5" "--as-needed" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icpcN0t7XA.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarch41F9i8 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfile4Hajoq -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icpcN0t7XA.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/icpcalis01CRIF -mIPOPT_mo_opt_report_file_name=/scratch/c07/yz4016/tmp/icpcorptA0NKAH -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/icpcelisP9KxZ6 -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icpceobjs93f2z -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/icpcllis8BBfYG
+ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_80a13 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib -lpapi CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal -Bdynamic -liomp5 --as-needed -lcilkrts --no-as-needed -lstdc++ -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o
+gmake[1]: Leaving directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake -f Makefile cmTC_80a13/fast && /bin/gmake  -f CMakeFiles/cmTC_80a13.dir/build.make CMakeFiles/cmTC_80a13.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/apps/intel-ct/wrapper/icpc   -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [icpc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    --target_efi2 --lang=c++ -oCMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -_g -mP3OPT_inline_alloca -D__ICC=2021 -D__INTEL_COMPILER=2021 -D__INTEL_COMPILER_UPDATE=6 -D__PTRDIFF_TYPE__=long "-D__SIZE_TYPE__=unsigned long" -D__WCHAR_TYPE__=int "-D__WINT_TYPE__=unsigned int" "-D__INTMAX_TYPE__=long int" "-D__UINTMAX_TYPE__=long unsigned int" -D__GLIBCXX_TYPE_INT_N_0=__int128 -D__GLIBCXX_BITSIZE_INT_N_0=128 -D__LONG_MAX__=9223372036854775807L -D__QMSPP_ -D__OPTIMIZE__ -D__NO_MATH_INLINES -D__NO_STRING_INLINES -D__GNUC_GNU_INLINE__ -D__GNUG__=8 -D__GNUC__=8 -D__GNUC_MINOR__=5 -D__GNUC_PATCHLEVEL__=0 -D__LP64__ -D_LP64 -D_GNU_SOURCE=1 -D__DEPRECATED=1 -D__GXX_WEAK__=1 -D__GXX_ABI_VERSION=1010 "-D__USER_LABEL_PREFIX__= " -D__REGISTER_PREFIX__= -D__INTEL_RTTI__ -D__EXCEPTIONS=1 -D__unix__ -D__unix -D__linux__ -D__linux -D__gnu_linux__ -B -Dunix -Dlinux "-_Asystem(unix)" -D__ELF__ -D__x86_64 -D__x86_64__ -D__amd64 -D__amd64__ "-_Acpu(x86_64)" "-_Amachine(x86_64)" -D__INTEL_COMPILER_BUILD_DATE=20220226 -D_OPENMP=201611 -D__INTEL_OFFLOAD -D__MMX__ -D__SSE__ -D__SSE_MATH__ -D__SSE2__ -D__SSE2_MATH__ -D__SSE3__ -D__SSSE3__ -D__SSE4_1__ -D__SSE4_2__ -D__POPCNT__ -D__PCLMUL__ -D__AES__ -D__AVX__ -D__F16C__ -D__AVX_I__ -D__RDRND__ -D__FMA__ -D__FP_FAST_FMA -D__FP_FAST_FMAF -D__BMI__ -D__LZCNT__ -D__AVX2__ -D__AVX512F__ -D__AVX512DQ__ -D__ADX__ -D__RDSEED__ -D__AVX512CD__ -D__MPX__ -D__AVX512BW__ -D__AVX512VL__ -D__AVX512VNNI__ -D__CLWB__ -_k -_8 -_l --has_new_stdarg_support -_a -_b --gnu_version=80500 -_W5 -p --bool -tused -x --openmp --openmp_tasks --openmp_simd --noopenmp_offload --dependency_file_name CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d --compile_dependencies --dependency_target_name CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o --multibyte_chars -mGLOB_diag_suppress_sys -DPAPI --system_preinclude /usr/include/stdc-predef.h -I/apps/intel-ct/2021.6.0/compiler/linux/include -I/apps/papi/5.7.0/include --array_section --simd --simd_func --offload_mode=1 --offload_target_names=mic MIC --offload_unique_string=icpc00955121093IYzTP --bool -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mP3OPT_emit_line_numbers -mGLOB_debug_target=GLOB_DEBUG_TARGET_ALL -mDEBUG_info_level=2 -mDEBUG_use_indirect_strings=TRUE -mIPOPT_ninl_debug_info=TRUE -mDEBUG_emit_dwarf_inline_info=TRUE -mDEBUG_debug_ranges=TRUE -mGLOB_debug_format=GLOB_DEBUG_FORMAT_DWARF40 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpcePy2RMas_.s -mIPOPT_activate -mIPOPT_lite -mGLOB_uarch_tuning=0x0 -mGLOB_product_id_code=0x22006d90 -mCG_bnl_movbe=T -mGLOB_cpu_features_csv_list=sse avx avx512f -mGLOB_cpu_march=native -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report=TRUE -mGLOB_opt_report_phases=0x2 -mGLOB_opt_report_level=4 -mGLOB_opt_report_destination=0x2 -mGLOB_opt_report_annotate_format=0x1 -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc00955121093IYzTP -mP2OPT_hlo_level=2 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mP2OPT_hlo_embed_loopinfo -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_lto_object_enabled -mIPOPT_lto_object_value=1 -mIPOPT_obj_output_file_name=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarchwW71S6 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfileWjl5s6 -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_C_PLUS_PLUS -mP1OPT_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mP1OPT_full_source_file_name=/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -mGLOB_eh_linux /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/auto_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-ct/2021.6.0/compiler/linux/include]
+  ignore line: [ /apps/papi/5.7.0/include]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/intel64]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include/icc]
+  ignore line: [ /apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/include]
+  ignore line: [ /half-root/usr/bin/../include/c++/8]
+  ignore line: [ /half-root/usr/bin/../include/c++/8/x86_64-redhat-linux]
+  ignore line: [ /half-root/usr/bin/../include/c++/8/backward]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/include]
+  ignore line: [ /half-root/usr/bin/../include/]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Intel(R) Advisor can now assist with vectorization and show optimization]
+  ignore line: [  report messages with your source code.]
+  ignore line: [See "https://software.intel.com/en-us/intel-advisor-xe" for details.]
+  ignore line: []
+  ignore line: [Intel(R) C++ Intel(R) 64 Compiler Classic for applications running on Intel(R) 64  Version 2021.6.0 Build 20220226_000000]
+  ignore line: []
+  ignore line: [Compiler options: -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -MD -MT CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -c]
+  ignore line: [Linking CXX executable cmTC_80a13]
+  ignore line: [/half-root/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80a13.dir/link.txt --verbose=1]
+  ignore line: [/apps/intel-ct/wrapper/icpc  -g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -o cmTC_80a13  -v ]
+  ignore line: [icpc version 2021.6.0 (gcc version 8.5.0 compatibility)]
+  ignore line: [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/mcpcom    -mGLOB_em64t=TRUE -mP1OPT_version=2021.6.0-intel64 -mGLOB_diag_file=CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.diag -mGLOB_long_size_64 -mGLOB_routine_pointer_size_64 -mP1OPT_print_version=FALSE -mCG_use_gas_got_workaround=F -mP2OPT_align_option_used=TRUE -mGLOB_gcc_version=850 "-mGLOB_options_string=-g -msse -mavx -mavx512f -qopt-report=5 -qopt-report-phase=vec -qopt-report-file=stdout -march=native -lpapi -DPAPI -qopenmp -v -o cmTC_80a13 -v" -mGLOB_cxx_limited_range=FALSE -mCG_extend_parms=FALSE -mGLOB_compiler_bin_directory=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64 -mP3OPT_emit_line_numbers -mGLOB_debug_target=GLOB_DEBUG_TARGET_ALL -mDEBUG_info_level=2 -mDEBUG_use_indirect_strings=TRUE -mIPOPT_ninl_debug_info=TRUE -mDEBUG_emit_dwarf_inline_info=TRUE -mDEBUG_debug_ranges=TRUE -mGLOB_debug_format=GLOB_DEBUG_FORMAT_DWARF40 -mGLOB_as_output_backup_file_name=/scratch/c07/yz4016/tmp/icpc3p38Vsas_.s -mGLOB_dashboard_use_source_name -mIPOPT_activate -mGLOB_product_id_code=0x22006d90 -mGLOB_cpu_features_csv_list=sse,avx,avx512f -mGLOB_cpu_march=native -mP3OPT_use_mspp_call_convention -mP2OPT_subs_out_of_bound=FALSE -mP2OPT_disam_type_based_disam=2 -mP2OPT_disam_assume_ansi_c -mP2OPT_checked_disam_ansi_alias=TRUE -mGLOB_ansi_alias -mPGOPTI_value_profile_use=T -mGLOB_opt_report=TRUE -mGLOB_opt_report_phases=0x2 -mGLOB_opt_report_level=4 -mGLOB_opt_report_destination=0x2 -mGLOB_opt_report_annotate_format=0x1 -mGLOB_opt_report_use_source_name -mPAROPT_openmp=TRUE -mP2OPT_hpo_omp_simd_only=FALSE -mP2OPT_il0_array_sections=TRUE -mGLOB_offload_mode=1 -mGLOB_offload_no_openmp=TRUE -mP2OPT_offload_unique_var_string=icpc2040697209IAThG5 -mP2OPT_hlo -mP2OPT_hpo_rtt_control=0 -mIPOPT_args_in_regs=0 -mP2OPT_disam_assume_nonstd_intent_in=FALSE -mGLOB_imf_mapping_library=/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../bin/intel64/libiml_attr.so -mP2OPT_hlo_embed_loopinfo -mPGOPTI_gen_threadsafe_level=0 -mIPOPT_link -mIPOPT_ipo_activate -mIPOPT_mo_activate -mIPOPT_source_files_list=/scratch/c07/yz4016/tmp/icpcslisFxHsA9 -mIPOPT_mo_global_data -mIPOPT_link_script_file=/scratch/c07/yz4016/tmp/icpcscriptyLvnnS "-mIPOPT_cmdline_link="/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o" "--eh-frame-hdr" "--build-id" "-dynamic-linker" "/lib64/ld-linux-x86-64.so.2" "-m" "elf_x86_64" "-o" "cmTC_80a13" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib" "-L/apps/papi/5.7.0/lib" "-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/" "-L/half-root/usr/bin/../lib/gcc/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/" "-L/lib/../lib64" "-L/lib/../lib64/" "-L/usr/lib/../lib64" "-L/usr/lib/../lib64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/" "-L/apps/intel-ct/2021.6.0/compiler/linux/lib/" "-L/apps/papi/5.7.0/lib/" "-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../" "-L/lib64" "-L/lib/" "-L/usr/lib64" "-L/usr/lib" "-lpapi" "CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o" "-Bdynamic" "-Bstatic" "-limf" "-lsvml" "-lirng" "-Bdynamic" "-lstdc++" "-lm" "-Bstatic" "-lipgo" "-ldecimal" "-Bdynamic" "-liomp5" "--as-needed" "-lcilkrts" "--no-as-needed" "-lstdc++" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc" "-Bdynamic" "-lpthread" "-Bstatic" "-lsvml" "-Bdynamic" "-lc" "-lgcc" "--as-needed" "-lgcc_s" "--no-as-needed" "-Bstatic" "-lirc_s" "-Bdynamic" "-ldl" "-lc" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o" "/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o"" -mIPOPT_il_in_obj -mIPOPT_ipo_activate_warn=FALSE -mIPOPT_obj_output_file_name=/scratch/c07/yz4016/tmp/ipo_icpcN0t7XA.o -mIPOPT_whole_archive_fixup_file_name=/scratch/c07/yz4016/tmp/icpcwarch41F9i8 -mGLOB_linker_version=2.30 -mGLOB_linker=ld -mGLOB_driver_tempfile_name=/scratch/c07/yz4016/tmp/icpctempfile4Hajoq -mP3OPT_asm_target=P3OPT_ASM_TARGET_GAS -mGLOB_async_unwind_tables=TRUE -mGLOB_obj_output_file=/scratch/c07/yz4016/tmp/ipo_icpcN0t7XA.o -mGLOB_source_dialect=GLOB_SOURCE_DIALECT_NONE -mP1OPT_source_file_name=ipo_out.c CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -mIPOPT_object_files=T -mIPOPT_assembly_files=/scratch/c07/yz4016/tmp/icpcalis01CRIF -mIPOPT_mo_opt_report_file_name=/scratch/c07/yz4016/tmp/icpcorptA0NKAH -mIPOPT_generated_tempfiles=/scratch/c07/yz4016/tmp/icpcelisP9KxZ6 -mIPOPT_embedded_object_base_name=/scratch/c07/yz4016/tmp/icpceobjs93f2z -mIPOPT_cmdline_link_new_name=/scratch/c07/yz4016/tmp/icpcllis8BBfYG]
+  link line: [ld    /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crt1.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crti.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtbegin.o --eh-frame-hdr --build-id -dynamic-linker /lib64/ld-linux-x86-64.so.2 -m elf_x86_64 -o cmTC_80a13 -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64 -L/apps/intel-ct/2021.6.0/compiler/linux/lib -L/apps/papi/5.7.0/lib -L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/ -L/half-root/usr/bin/../lib/gcc/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64 -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/ -L/lib/../lib64 -L/lib/../lib64/ -L/usr/lib/../lib64 -L/usr/lib/../lib64/ -L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/ -L/apps/intel-ct/2021.6.0/compiler/linux/lib/ -L/apps/papi/5.7.0/lib/ -L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../ -L/lib64 -L/lib/ -L/usr/lib64 -L/usr/lib -lpapi CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o -Bdynamic -Bstatic -limf -lsvml -lirng -Bdynamic -lstdc++ -lm -Bstatic -lipgo -ldecimal -Bdynamic -liomp5 --as-needed -lcilkrts --no-as-needed -lstdc++ -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -lpthread -Bstatic -lsvml -Bdynamic -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic -ldl -lc /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/crtend.o /half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/crtn.o]
+    arg [ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_80a13] ==> ignore
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+    arg [-L/apps/papi/5.7.0/lib] ==> dir [/apps/papi/5.7.0/lib]
+    arg [-L/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/]
+    arg [-L/half-root/usr/bin/../lib/gcc/] ==> dir [/half-root/usr/bin/../lib/gcc/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/lib/../lib64/] ==> dir [/lib/../lib64/]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/../lib64/] ==> dir [/usr/lib/../lib64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/]
+    arg [-L/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/]
+    arg [-L/apps/papi/5.7.0/lib/] ==> dir [/apps/papi/5.7.0/lib/]
+    arg [-L/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../]
+    arg [-L/lib64] ==> dir [/lib64]
+    arg [-L/lib/] ==> dir [/lib/]
+    arg [-L/usr/lib64] ==> dir [/usr/lib64]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-lpapi] ==> lib [papi]
+    arg [CMakeFiles/cmTC_80a13.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-limf] ==> lib [imf]
+    arg [-lsvml] ==> lib [svml]
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-Bstatic] ==> ignore
+    arg [-lipgo] ==> lib [ipgo]
+    arg [-ldecimal] ==> lib [decimal]
+    arg [-Bdynamic] ==> ignore
+    arg [-liomp5] ==> lib [iomp5]
+    arg [--as-needed] ==> ignore
+    arg [-lcilkrts] ==> lib [cilkrts]
+    arg [--no-as-needed] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-Bstatic] ==> ignore
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> ignore
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/apps/intel-oneapi/compiler/2022.1.0/linux/bin/intel64/../../compiler/lib/intel64_lin] ==> [/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/] ==> [/half-root/usr/lib/gcc/x86_64-redhat-linux/8]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/] ==> [/half-root/usr/lib/gcc]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64] ==> [/half-root/usr/lib64]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../../lib64/] ==> [/half-root/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/lib/../lib64/] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/../lib64/] ==> [/usr/lib64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib/x64]
+  collapse library dir [/apps/intel-ct/2021.6.0/compiler/linux/lib/] ==> [/apps/intel-ct/2021.6.0/compiler/linux/lib]
+  collapse library dir [/apps/papi/5.7.0/lib/] ==> [/apps/papi/5.7.0/lib]
+  collapse library dir [/half-root/usr/bin/../lib/gcc/x86_64-redhat-linux/8/../../../] ==> [/half-root/usr/lib]
+  collapse library dir [/lib64] ==> [/lib64]
+  collapse library dir [/lib/] ==> [/lib]
+  collapse library dir [/usr/lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [papi;imf;svml;irng;stdc++;m;ipgo;decimal;iomp5;cilkrts;stdc++;gcc;gcc_s;irc;pthread;svml;c;gcc;gcc_s;irc_s;dl;c]
+  implicit objs: []
+  implicit dirs: [/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin;/apps/intel-ct/2021.6.0/compiler/linux/lib/x64;/apps/intel-ct/2021.6.0/compiler/linux/lib;/apps/papi/5.7.0/lib;/apps/intel-oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin;/half-root/usr/lib/gcc/x86_64-redhat-linux/8;/half-root/usr/lib/gcc;/half-root/usr/lib64;/lib64;/usr/lib64;/half-root/usr/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+

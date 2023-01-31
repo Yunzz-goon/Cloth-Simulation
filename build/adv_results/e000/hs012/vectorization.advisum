@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+           line_no="743"
+           routine="eval_pef$omp$parallel@594"
+           is_vectorized="1"
+           self_time="3.237533E+00"
+           total_time="3.237533E+00"
+           trip_counts="1"
+           func_instance="33"
+           priority="0"/>
+  <hotspot filename="/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+           line_no="104"
+           routine="loopcode$omp$parallel@101"
+           is_vectorized="1"
+           self_time="3.122074E+00"
+           total_time="3.122074E+00"
+           trip_counts="1562500"
+           func_instance="20"
+           priority="0"/>
+  <hotspot filename="/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+           line_no="238"
+           routine="loopcode$omp$parallel@236"
+           is_vectorized="0"
+           self_time="2.737086E+00"
+           total_time="2.737086E+00"
+           trip_counts="1562500"
+           func_instance="56"
+           priority="0"/>
+  <hotspot filename="/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+           line_no="488"
+           routine="eval_pef$omp$parallel@336"
+           is_vectorized="1"
+           self_time="1.768494E+00"
+           total_time="1.768494E+00"
+           trip_counts="1"
+           func_instance="48"
+           priority="0"/>
+  <hotspot filename="/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+           line_no="300"
+           routine="eval_pef$omp$parallel@300"
+           is_vectorized="0"
+           self_time="1.351371E+00"
+           total_time="1.351371E+00"
+           trip_counts="1562500"
+           func_instance="61"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_main.dir/kernel_main.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_main.dir/cloth_code.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_main.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_vect_omp.dir/kernel_main.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_vect_omp.dir/cloth_code_vect_omp.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_vect_omp.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_vect_omp.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_vect_omp.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_opt.dir/kernel_main.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_opt.dir/cloth_code_opt.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_opt.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_opt.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_opt.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/opengl_main.dir/opengl_main.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/opengl_main.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/opengl_main.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/opengl_main.dir/cloth_code.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/opengl_main.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_omp.dir/kernel_omp.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_omp.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_omp.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_omp.dir/cloth_code_omp.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_omp.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_block.dir/kernel_omp.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_omp.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_omp.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_block.dir/cloth_code_omp_block.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_omp_block.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_block.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_sse.dir/kernel_main.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/kernel_main.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_sse.dir/cloth_code_sse.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_sse.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/cloth_code_sse.cpp"
+},
+{
+  "directory": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+  "command": "/opt/nci/bin/g++  -g -msse -mavx -mavx512f  -fpic -Wall -Wextra -Wno-deprecated-declarations -Wpedantic -lpapi -DPAPI -g -fopenmp -o CMakeFiles/kernel_sse.dir/simple_papi.cpp.o -c /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp",
+  "file": "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/simple_papi.cpp"
+}
+]

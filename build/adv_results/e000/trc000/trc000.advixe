@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1667171347</timestamp>
+  <hostname type="string">gadi-cpu-clx-2132.gadi.nci.org.au</hostname>
+  <os type="string">linux</os>
+  <product type="string">Intel® Advisor 2022.1</product>
+  <buildNumber type="s32_t">613050</buildNumber>
+  <logicalCPUCount type="s32_t">96</logicalCPUCount>
+  <physicalCoreCount type="s32_t">48</physicalCoreCount>
+  <processorPackageCount type="s32_t">2</processorPackageCount>
+  <CPUFrequency type="s64_t">3200000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">85</CPUModel>
+  <CPUStepping type="s32_t">7</CPUStepping>
+  <CPUBrandName type="string">Intel(R) Xeon(R) Platinum 8274 CPU @ 3.20GHz</CPUBrandName>
+  <isa type="string">avx512</isa>
+  <collectionTimeBegin type="u64_t">1667171348</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1667171439</collectionTimeEnd>
+  <finalizationTimeBegin type="u64_t">1667171439</finalizationTimeBegin>
+  <finalizationTimeEnd type="u64_t">1667171451</finalizationTimeEnd>
+ </rdmgr>
+</root>

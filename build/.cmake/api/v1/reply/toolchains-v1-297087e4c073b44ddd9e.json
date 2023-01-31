@@ -1,0 +1,105 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include",
+						"/usr/local/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/half-root/usr/lib/gcc/x86_64-redhat-linux/8",
+						"/half-root/usr/lib/gcc",
+						"/half-root/usr/lib64",
+						"/lib64",
+						"/usr/lib64",
+						"/half-root/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/opt/nci/bin/gcc",
+				"version" : "8.5.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/half-root/usr/include/c++/8",
+						"/half-root/usr/include/c++/8/x86_64-redhat-linux",
+						"/half-root/usr/include/c++/8/backward",
+						"/half-root/usr/lib/gcc/x86_64-redhat-linux/8/include",
+						"/usr/local/include",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/half-root/usr/lib/gcc/x86_64-redhat-linux/8",
+						"/half-root/usr/lib/gcc",
+						"/half-root/usr/lib64",
+						"/lib64",
+						"/usr/lib64",
+						"/half-root/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/opt/nci/bin/g++",
+				"version" : "8.5.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

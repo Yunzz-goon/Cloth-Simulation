@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cloth",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_block::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_block-Debug-dc2a1fd2f2d49360eac1.json",
+					"name" : "kernel_block",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_main-Debug-a3e262bb34455eaca5c2.json",
+					"name" : "kernel_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_omp-Debug-5c3f678a634e2bacf405.json",
+					"name" : "kernel_omp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_opt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_opt-Debug-956462e33fbd891076e5.json",
+					"name" : "kernel_opt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_sse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_sse-Debug-27cf5cbd690ba7bfb262.json",
+					"name" : "kernel_sse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kernel_vect_omp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kernel_vect_omp-Debug-9006985f2c8e21b67f2e.json",
+					"name" : "kernel_vect_omp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "opengl_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-opengl_main-Debug-1e174d819d7036eff73e.json",
+					"name" : "opengl_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build",
+		"source" : "/home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

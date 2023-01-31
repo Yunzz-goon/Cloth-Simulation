@@ -1,0 +1,106 @@
+13 [22475020186432] INFO perfrun.launcher <> - Launcher main begin
+16 [22475020186432] INFO perfrun.launcher <> - MessageCatalogInit finished
+16 [22475020186432] INFO perfrun.launcher <> - Launcher instance created
+16 [22475020186432] INFO perfrun.launcher <> - argc = 7; cmdline = /apps/intel-oneapi/advisor/2022.1.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 10 --option-file /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012/config/runss.options 
+69 [22475020186432] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+69 [22475020186432] INFO perfrun.launcher <> - create file finder object
+69 [22475020186432] INFO perfrun.launcher <> - create a result directory: pattern = /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012 pid = 4294967295
+75 [22475020186432] INFO perfrun.sdk <> - checked that the directory /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012 is a local directory
+75 [22475020186432] INFO perfrun.sdk <> - the directory /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012 is located on a share or its FS ID is unknown 26985
+75 [22475020186432] INFO perfrun.sdk <> - checked that the directory /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016 is a local directory
+75 [22475020186432] INFO perfrun.sdk <> - the directory /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016 is a local directory with FS type ID 1481003842
+75 [22475020186432] INFO perfrun.launcher <> - Create a local result directory /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944 due to the user result path /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012 is located on a share
+75 [22475020186432] INFO perfrun.launcher <> - create data directory = /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0
+77 [22475020186432] INFO perfrun.launcher <> - create data directory = /home/444/yz4016/COMP3320/assessments/comp3320-2022-assignment-2/build/adv_results/e000/hs012/data.0
+78 [22475020186432] INFO perfrun.launcher <> - Creating the master collection flag
+92 [22475020186432] INFO perfrun.launcher <> - Done creating the master collection flag
+111 [22474892236544] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.sdk <> - Allocating TMU :/jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0/systemcollector-1080929-gadi-cpu-clx-2132.gadi.nci.org.au.sc
+112 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+112 [22474892236544] INFO perfrun.mrte <> - system-wide mode is 0
+112 [22474892236544] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+130 [22474892236544] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0
+130 [22474892236544] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=gadi-cpu-clx-2132.gadi.nci.org.au
+130 [22474892236544] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/apps/intel-oneapi/advisor/2022.1.0/lib32/runtime:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime
+130 [22474892236544] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/apps/intel-oneapi/advisor/2022.1.0/lib32/runtime:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime:/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin:/apps/intel-ct/2021.6.0/compiler/linux/lib/x64:/apps/intel-ct/2021.6.0/compiler/linux/lib:/apps/papi/5.7.0/lib
+130 [22474892236544] INFO perfrun.mrte <> - Data directory: /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0
+130 [22474892236544] INFO perfrun.mrte <> - Mrte plugin is initialized
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.tpss <> - initialize tpss controller
+130 [22474892236544] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+130 [22474892236544] INFO perfrun.tpss <> - default obj-size-min=1024
+130 [22474892236544] INFO perfrun.tpss <> - default hash-table-size=0
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22474892236544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+130 [22475020186432] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /apps/intel-oneapi/advisor/2022.1.0/lib32/runtime:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime:/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin:/apps/intel-ct/2021.6.0/compiler/linux/lib/x64:/apps/intel-ct/2021.6.0/compiler/linux/lib:/apps/papi/5.7.0/lib
+130 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /apps/intel-oneapi/advisor/2022.1.0/lib32/runtime/libittnotify_collector.so
+130 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /apps/intel-oneapi/advisor/2022.1.0/lib64/runtime/libittnotify_collector.so
+130 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /apps/intel-oneapi/advisor/2022.1.0/lib32/runtime/libittnotify_collector.so
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /apps/intel-oneapi/advisor/2022.1.0/lib64/runtime/libittnotify_collector.so
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /apps/intel-oneapi/advisor/2022.1.0/lib32/runtime/libittnotify_collector.so:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime/libittnotify_collector.so
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = gadi-cpu-clx-2132.gadi.nci.org.au
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/apps/intel-oneapi/advisor/2022.1.0/lib32/runtime:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime
+131 [22475020186432] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /apps/intel-oneapi/advisor/2022.1.0/lib32/runtime:/apps/intel-oneapi/advisor/2022.1.0/lib64/runtime:/apps/intel-ct/2021.6.0/compiler/linux/compiler/lib/intel64_lin:/apps/intel-ct/2021.6.0/compiler/linux/lib/x64:/apps/intel-ct/2021.6.0/compiler/linux/lib:/apps/papi/5.7.0/lib
+131 [22475020186432] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+154 [22475020186432] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./kernel_block
+155 [22475020186432] INFO perfrun.launcher <> - Launcher: command line to start after modification = /apps/intel-oneapi/advisor/2022.1.0/bin64/pin -error_file /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /apps/intel-oneapi/advisor/2022.1.0/lib64/libtpsstool.so -t /apps/intel-oneapi/advisor/2022.1.0/lib32/libtpsstool.so -server_name tpss_ipc.1080929 -prd_dir /apps/intel-oneapi/advisor/2022.1.0 -- ./kernel_block
+155 [22475020186432] INFO perfrun.launcher <> - ProcessCreator object was created
+156 [22475020186432] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+174 [22474892236544] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+174 [22474892236544] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+185 [22474892236544] WARN perfrun.sdk <> - SEP tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:590
+185 [22474892236544] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:745
+185 [22474892236544] WARN perfrun.sdk <> - amplxe-perf tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:606
+185 [22474892236544] WARN perfrun.sdk <> - Device mapping through perf is not available on current kernel, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:943
+188 [22474892236544] WARN perfrun.sdk <> - SEP tool is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:590
+188 [22474892236544] WARN perfrun.sdk <> - SEP driver is not available, at file: vcs/perfrun1/plugins/pluginsdk/src/device_mapper.cpp:745
+188 [22474892236544] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+192 [22474892236544] INFO perfrun.vdso <> - Helper runtool '/apps/intel-oneapi/advisor/2022.1.0/bin32/advixe-runss -dump-vdso -r /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944 --tmp-dir /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016' returned 1
+313 [22474892236544] INFO perfrun.vdso <> - Helper runtool '/apps/intel-oneapi/advisor/2022.1.0/bin64/advixe-runss -dump-vdso -r /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944 --tmp-dir /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016' returned 0
+313 [22474892236544] INFO perfrun.itt <> - start itt controller for pid #1080966
+313 [22474892236544] INFO perfrun.tpss <> - start tpss controller for pid #1080966
+364 [22475020186432] INFO perfrun.launcher <> - Launcher: all plugins were started
+364 [22475020186432] INFO perfrun.launcher <> - DirectoryMonitor object was created
+364 [22475020186432] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+364 [22475020186432] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+364 [22475020186432] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+364 [22475020186432] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+368 [22475020186432] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+2794 [22475020186432] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+2819 [22474892236544] INFO perfrun.itt <> - detach itt controller
+2819 [22474892236544] INFO perfrun.itt <> - detach itt controller done
+2819 [22474892236544] INFO perfrun.tpss <> - stop tpss controller
+2820 [22474892236544] INFO perfrun.sdk <> - De-allocating TMU: /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0/systemcollector-1080929-gadi-cpu-clx-2132.gadi.nci.org.au.sc
+2820 [22474892236544] INFO perfrun.system <> - closed the system trace file: /jobfs/62255023.gadi-pbs/advixe-tmp-yz4016/advixe-res-1080929-7345193105968944/data.0/systemcollector-1080929-gadi-cpu-clx-2132.gadi.nci.org.au.sc
+2820 [22475020186432] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+2820 [22475020186432] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+2820 [22475020186432] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+2820 [22475020186432] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+2820 [22475020186432] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+3250 [22475020186432] INFO perfrun.launcher <> - Application exit code: 0
+3250 [22475020186432] INFO perfrun.launcher <> - Exit code: 0
